@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button,
+select,
+input {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+p {
+  line-height: 1.5;
+}
+a {
+  text-decoration: none;
+}
+/* == zero style == end*/
+
+.container{
+  max-width: 1200px;
+  margin: auto;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: min-content;
+  background-color: #004600;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+h1{
+  color: white;
+}
+
+.img-logo{
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+main{
+  margin-top: 4rem;
+}
