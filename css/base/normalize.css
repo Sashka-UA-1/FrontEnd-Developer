@@ -18,6 +18,15 @@ a {
   text-decoration: none;
   color: inherit;
 }
-ul, li{
+ul,
+li {
   list-style: none;
+}
+
+html {
+  height: 100vh;
+}
+
+body{
+  min-height: 100%;
 }

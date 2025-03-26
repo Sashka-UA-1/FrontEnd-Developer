@@ -1,6 +1,9 @@
 
-html, body{
-  height: calc(100% - 5.125rem);
+body{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
 }
 
 .container{

@@ -11,5 +11,7 @@
 /* blocks style == start */
 
 @import url("blocks/header.css");
+@import url("blocks/main.css");
+@import url("blocks/footer.css");
 
 /* blocks style == end */

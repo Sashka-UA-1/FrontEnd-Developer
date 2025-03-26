@@ -1,0 +1,21 @@
+
+
+footer {
+  justify-self: flex-end;
+  padding: 1rem;
+  border-top: 1px solid var(--text-color);
+  width: 100%;
+  text-align: center;
+  margin-top: 1rem;
+}
+footer h6 a {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color:  var(--text-color);
+  transition: 0.5s;
+}
+footer h6 a:hover {
+  color: skyblue;
+  text-shadow: 0 0 1rem skyblue;
+}
