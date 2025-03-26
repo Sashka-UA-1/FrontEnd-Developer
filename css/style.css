@@ -3,6 +3,7 @@
 /* base styles == start  */
 
 @import url('base/normalize.css');
+@import url('base/vars.css');
 
 /* base styles == end  */
 

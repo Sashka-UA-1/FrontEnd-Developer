@@ -4,7 +4,7 @@ header{
   left: 0;
   width: 100%;
   height: min-content;
-  background-color: #004600;
+  background-color: var(--header-bg-color);
 }
 
 .header{
