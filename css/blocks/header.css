@@ -23,6 +23,12 @@ h1 {
   height: 3rem;
   object-fit: cover;
   border-radius: 50%;
+  transition: all 0.3s;
+  /* Add hover effect */
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #00000080;
+  }
 }
 
 .header-menu {
@@ -33,4 +39,11 @@ h1 {
 .header-menu a {
   color: var(--text-color);
   font-family: var(--font-family);
+  font-size: 1.25rem;
+  transition: all 0.3s;
+  /* Add hover effect */
+  text-wrap: nowrap;
+  &:hover {
+    color: white;
+  }
 }

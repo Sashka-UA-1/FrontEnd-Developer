@@ -1,16 +1,13 @@
-
 /* base styles == start  */
 
-@import url('base/normalize.css');
-@import url('base/vars.css');
-@import url('base/base.css');
+@import url("base/normalize.css");
+@import url("base/vars.css");
+@import url("base/base.css");
 
 /* base styles == end  */
 
 /* blocks style == start */
 
-@import url('blocks/header.css');
-@import url('blocks/footer.css');
+@import url("blocks/header.css");
 
 /* blocks style == end */
-

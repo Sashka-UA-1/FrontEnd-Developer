@@ -1,7 +1,6 @@
 
 html, body{
   height: calc(100% - 5.125rem);
-  font-family: var(--font-family);
 }
 
 .container{
