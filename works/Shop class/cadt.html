@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Кошик</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Кошик</h1>
+      <nav>
+        <a href="index.html" class="cart-link">Назад до магазину</a>
+      </nav>
+    </header>
+    <main>
+      <table id="cart-table">
+        <thead>
+          <tr>
+            <th>Товар</th>
+            <th>Назва</th>
+            <th>Кількість</th>
+            <th>Ціна / шт</th>
+            <th>Всього</th>
+            <th>Видалити</th>
+          </tr>
+        </thead>
+        <tbody id="cart-body"></tbody>
+      </table>
+      <div id="total-price">Всього: 0</div>
+      <section class="buttons">
+        <button id="clear-cart" class="cart-link">Очистити корзину</button>
+        <button id="buy-cart" class="cart-link">Оформити замовлення</button>
+      </section>
+    </main>
+
+    <div id="modal">
+      <div class="modal-body">
+        <form id="form">
+          <h3>Оформелня замовлення</h3>
+          <label>
+            <input
+              type="text"
+              name="name"
+              placeholder="Ваше ім'я"
+              data-required="true"
+              data-min-length="2"
+            />
+          </label>
+          <label>
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Телефон"
+              data-required="true"
+              data-min-length="10"
+            />
+          </label>
+          <section>
+            <label>
+              <p>Master Card</p>
+              <input type="radio" value="MasterCard" name="cardBank" checked />
+            </label>
+            <label>
+              <p>VISE</p>
+              <input type="radio" value="VISE" name="cardBank" />
+            </label>
+          </section>
+          <button type="submit">Замовти</button>
+        </form>
+        <button id="close-btn-modal">
+          <i class="fa-regular fa-circle-xmark"></i>
+        </button>
+      </div>
+    </div>
+
+    <div id="modalBuy">
+      <div class="modalBuy-body">
+        <h4>Дякуємо за замовлення</h4>
+      </div>
+    </div>
+
+    <script src="js/cadt.js"></script>
+    <script src="js/form.js"></script>
+  </body>
+</html>
