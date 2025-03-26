@@ -1,26 +1,16 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-button,
-select,
-input {
-  outline: none;
-  border: none;
-  cursor: pointer;
-}
-p {
-  line-height: 1.5;
-}
-a {
-  text-decoration: none;
-  color: inherit;
-}
-ul, li{
-  list-style: none;
-}
-/* == zero style == end*/
+
+
+/* base styles == start  */
+
+@import url('base/normalize.css');
+
+/* base styles == end  */
+
+/* blocks style == start */
+
+@import url('blocks/header.css');
+
+/* blocks style == end */
 
 .container{
   max-width: 1200px;
@@ -31,39 +21,6 @@ ul, li{
 
 html, body{
   height: calc(100% - 5.125rem);
-}
-
-header{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: min-content;
-  background-color: #004600;
-}
-
-.header{
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem;
-  align-items: center;
-}
-
-h1{
-  color: white;
-}
-
-.img-logo{
-  width: 3rem;
-  height: 3rem;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-
-.header-menu{
-  display: flex;
-  gap: 1rem;
 }
 
 
