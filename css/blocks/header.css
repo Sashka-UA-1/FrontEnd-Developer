@@ -1,4 +1,4 @@
-header{
+header {
   position: fixed;
   top: 0;
   left: 0;
@@ -7,26 +7,30 @@ header{
   background-color: var(--header-bg-color);
 }
 
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
   align-items: center;
 }
 
-h1{
+h1 {
   color: white;
 }
 
-.img-logo{
+.img-logo {
   width: 3rem;
   height: 3rem;
   object-fit: cover;
   border-radius: 50%;
 }
 
-
-.header-menu{
+.header-menu {
   display: flex;
   gap: 1rem;
+}
+
+.header-menu a {
+  color: var(--text-color);
+  font-family: var(--font-family);
 }

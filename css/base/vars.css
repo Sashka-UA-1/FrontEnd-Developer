@@ -1,3 +1,9 @@
-:root{
+
+
+:root {
   --header-bg-color: #004600;
+
+  --text-color: #d64700;
+
+  --font-family: 'Tyne', serif;
 }
