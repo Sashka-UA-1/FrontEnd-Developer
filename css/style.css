@@ -1,17 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Tiny5&display=swap");
 
-/* base styles == start  */
+/* ↓↓↓ === base styles === ↓↓↓  */
 
 @import url("base/normalize.css");
 @import url("base/vars.css");
 @import url("base/base.css");
 
-/* base styles == end  */
+/* ↑↑↑ === base styles === ↑↑↑  */
 
-/* blocks style == start */
+/* ↓↓↓ === blocks style === ↓↓↓ */
 
 @import url("blocks/header.css");
-@import url("blocks/main.css");
 @import url("blocks/footer.css");
 
-/* blocks style == end */
+/* ↑↑↑ === blocks style === ↑↑↑ */
