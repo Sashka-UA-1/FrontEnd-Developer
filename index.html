@@ -1,46 +1,57 @@
 <!DOCTYPE html>
 <html lang="ua">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" sizes="180x180" href="img/Logo_mini.ico">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" sizes="180x180" href="img/Logo_mini.ico" />
 
-  <title>Портфоліо Єкімова</title>
+    <title>Портфоліо Єкімова</title>
 
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  
-  <header>
-    <section class="container header">
-       <a href="">
-         <img src="img/Logo.jpg" alt="My_logo" class="img-logo">
-       </a>
-      <nav>
-        <ul class="header-menu">
-          <li><a href="#">Про мене</a></li>
-          <li><a href="#">Мої контакти</a></li>
-        </ul>
-      </nav>
-    </section>
-  </header>
- 
-  <main>
-    <section class="works container">
-      <h2 class="hide">Мої роботи</h2>
-      <article>
-        <a href="/works/Fetch_API_post/index.html" target="_blank">Пошук постів по API</a>
-      </article>
-      <article>
-        <a href="/works/Shop_class/index.html" target="_blank">Інтернет магази на классах JS</a>
-      </article>
-    </section>
-  </main>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <section class="container header">
+        <a href="">
+          <img src="img/Logo.jpg" alt="My_logo" class="img-logo" />
+        </a>
+        <nav>
+          <ul class="header-menu">
+            <li><a href="#">Про мене</a></li>
+            <li><a href="#">Мої контакти</a></li>
+          </ul>
+        </nav>
+      </section>
+    </header>
 
-  <footer>
-    <h6>
-      <a href="https://t.me/sashka_UA_1" target="_blank">Developer: Ekimov Alexander</a>
-    </h6>
-  </footer>
-</body>
+    <main>
+      <!-- ↓↓↓ === works === ↓↓↓ -->
+      <h2 class="hide works__title">Мої роботи</h2>
+      <section class="works container">
+        <!-- ↓↓↓ === works__item === ↓↓↓ -->
+        <article class="works__item">
+          <a href="/works/Fetch_API_post/index.html" target="_blank"
+            >Пошук постів по API</a
+          >
+        </article>
+        <!-- ↑↑↑ === works__item === ↑↑↑ -->
+        <!-- ↓↓↓ === works__item === ↓↓↓ -->
+        <article class="works__item">
+          <a href="/works/Shop_class/index.html" target="_blank"
+            >Інтернет магази на классах JS</a
+          >
+        </article>
+        <!-- ↑↑↑ === works__item === ↑↑↑ -->
+      </section>
+      <!-- ↑↑↑ === works === ↑↑↑ -->
+    </main>
+
+    <footer>
+      <h6>
+        <a href="https://t.me/sashka_UA_1" target="_blank"
+          >Developer: Ekimov Alexander</a
+        >
+      </h6>
+    </footer>
+  </body>
 </html>
