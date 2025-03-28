@@ -11,6 +11,10 @@
   margin-top: 2rem;
 }
 
+.works__item{
+  height: min-content;
+}
+
 .works__item a{ 
   padding: 2rem;
   border-radius: 2rem;
