@@ -1,0 +1,18 @@
+
+/* ↓↓↓ === інмпорт базових стилів === ↓↓↓ */
+
+@import url('/css/base/normalize.css');
+@import url('/css/base/base.css');
+
+/* ↑↑↑ === інмпорт базових стилів === ↑↑↑ */
+
+/* ↓↓↓ === інпорт стилів для блоків сторінки === ↓↓↓ */
+
+@import url('/css/blocks/header.css');
+@import url('/css/blocks/crypto-panel.css');
+@import url('/css/blocks/favorite.css');
+@import url('/css/blocks/modal.css');
+
+/* ↑↑↑ === інпорт стилів для блоків сторінки === ↑↑↑ */
+
+

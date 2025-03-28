@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/svg" href="/coin.svg">
+
+  <title>Кріпто-трекер</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- ↓↓↓ === header block === ↓↓↓ -->
+  <header>
+    <h1>Кріпто-трекер</h1>
+  </header>
+  <!-- ↑↑↑ === header block === ↑↑↑ -->
+  <!-- ↓↓↓ === main block === ↓↓↓ -->
+  <main class="container">
+    <!-- ↓↓↓ === crypto-panel === ↓↓↓ -->
+    <section class="crypto-panel">
+      <h2>Пошук крипто-валюти</h2>
+      <input type="text" id="search-crypto" placeholder="Введіть назву крипто-валюти">
+      <select id="crypto-select">
+        <option value="none">Список завантажується... </option>
+      </select>
+      <button id="show-info">Інформаці</button>
+      <button id="add-favorite">Додати до списку обраних</button>
+    </section>
+    <!-- ↑↑↑ === crypto-panel === ↑↑↑ -->
+    <!-- ↓↓↓ === favorite === ↓↓↓ -->
+    <section class="favorite">
+      <h2>Обрані</h2>
+      <ul id="favorite-list">
+
+      </ul>
+    </section>
+    <!-- ↑↑↑ === favorite === ↑↑↑ -->
+  </main>
+  <!-- ↑↑↑ === main block === ↑↑↑ -->
+  <!-- ↓↓↓ === modal block === ↓↓↓ -->
+  <div id="modal">
+    <div class="modal-container">
+      <button id="close-btn"><i class="fa-solid fa-xmark"></i></button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+  <!-- ↑↑↑ === modal block === ↑↑↑ -->
+  <script src="js/script.js"></script>
+</body>
+</html>
