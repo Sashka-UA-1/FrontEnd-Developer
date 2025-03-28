@@ -16,4 +16,10 @@
   border-radius: 2rem;
   color: var(--text-color);
   background-color: var(--works-a-bg-color);
+  transition: all 0.4s ease-in;
 } 
+
+.works__item a:hover{
+  transform: translate(0, -0.5rem);
+  box-shadow: 0 0.5rem 1rem var(--works-a-bg-color + 0.5);
+}
