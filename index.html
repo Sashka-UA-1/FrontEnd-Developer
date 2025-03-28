@@ -1,45 +1,68 @@
 <!DOCTYPE html>
 <html lang="ua">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" sizes="180x180" href="img/Logo_mini.ico">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" sizes="180x180" href="img/Logo_mini.ico" />
 
-  <title>Yekimov portfolio</title>
+    <title>Портфоліо Єкімова</title>
 
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  
-  <header>
-    <section class="container header">
-       <a href="">
-         <img src="img/Logo.jpg" alt="My_logo" class="img-logo">
-       </a>
-      <nav>
-        <ul class="header-menu">
-          <li><a href="#">Про мене</a></li>
-          <li><a href="#">Мої контакти</a></li>
-        </ul>
-      </nav>
-    </section>
-  </header>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ↓↓↓ === header === ↓↓↓ -->
+    <header>
+      <section class="container header">
+        <!-- ↓↓↓ === logo === ↓↓↓  -->
+        <a href="">
+          <img src="img/Logo.jpg" alt="My_logo" class="img-logo" />
+        </a>
+        <!-- ↑↑↑ === logo === ↑↑↑  -->
+        <h1 class="header-title hide">Портфоліо Єкімова</h1>
+        <!-- ↓↓↓ === header-menu === ↓↓↓ -->
+        <nav>
+          <ul class="header-menu">
+            <!-- <li><a href="#">Про мене</a></li> -->
+            <!-- <li><a href="#">Мої контакти</a></li> -->
+          </ul>
+        </nav>
+        <!-- ↑↑↑ === header-menu === ↑↑↑ -->
+      </section>
+    </header>
+    <!-- ↑↑↑ === header === ↑↑↑ -->
 
-  <main>
-    <section>
-      <article>
-        <a href="/works/Fetch API post/index.html" target="_blank">Пошук постів по API</a>
-      </article>
-      <article>
-        <a href="/works/Shop class/index.html" target="_blank">Інтернет магази на классах JS</a>
-      </article>
-    </section>
-  </main>
+    <!-- ↓↓↓ === main === ↓↓↓   -->
+    <main>
+      <!-- ↓↓↓ === works === ↓↓↓ -->
+      <h2 class="works__title hide">Мої роботи</h2>
+      <section class="works container">
+        <!-- ↓↓↓ === works__item === ↓↓↓ -->
+        <label class="works__item" for="linl-work-1">
+          <a href="/works/Fetch_API_post/index.html" target="_blank" id="linl-work-1"
+            >Пошук постів по API</a
+          >
+        </label>
+        <!-- ↑↑↑ === works__item === ↑↑↑ -->
+        <!-- ↓↓↓ === works__item === ↓↓↓ -->
+        <label class="works__item" for="linl-work-2">
+          <a href="/works/Shop_class/index.html" target="_blank" id="linl-work-2"
+            >Інтернет-магазин на классах JS</a
+          >
+        </label>
+        <!-- ↑↑↑ === works__item === ↑↑↑ -->
+      </section>
+      <!-- ↑↑↑ === works === ↑↑↑ -->
+    </main>
+    <!-- ↑↑↑ === main === ↑↑↑ -->
 
-  <footer>
-    <h6>
-      <a href="https://t.me/sashka_UA_1" target="_blank">Developer: Ekimov Alexander</a>
-    </h6>
-  </footer>
-</body>
+    <!-- ↓↓↓ === footer === ↓↓↓ -->
+    <footer>
+      <h6>
+        <a href="https://t.me/sashka_UA_1" target="_blank"
+          >Developer: Ekimov Alexander</a
+        >
+      </h6>
+    </footer>
+    <!-- ↑↑↑ === footer === ↑↑↑ -->
+  </body>
 </html>

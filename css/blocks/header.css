@@ -24,12 +24,14 @@ h1 {
   object-fit: cover;
   border-radius: 50%;
   transition: all 0.3s;
-  /* Add hover effect */
-  &:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 10px #00000080;
-  }
 }
+
+/* Add hover effect == ↓↓↓ */
+.img-logo:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #00000080;
+}
+/* Add hover effect == ↑↑↑ */
 
 .header-menu {
   display: flex;
@@ -41,9 +43,11 @@ h1 {
   font-family: var(--font-family);
   font-size: 1.25rem;
   transition: all 0.3s;
-  /* Add hover effect */
   text-wrap: nowrap;
-  &:hover {
-    color: white;
-  }
 }
+
+/* Add hover effect == ↓↓↓ */
+.header-menu a:hover{
+  color: white;
+}
+/* Add hover effect == ↑↑↑ */
