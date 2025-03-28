@@ -17,6 +17,6 @@ footer h6 a {
 }
 
 footer h6 a:hover {
-  color: skyblue;
+  color: black;
   text-shadow: 0 0 1rem black;
 }

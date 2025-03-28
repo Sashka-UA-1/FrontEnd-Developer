@@ -11,6 +11,9 @@
   margin-top: 2rem;
 }
 
-.works__item{ 
-  
-}
+.works__item a{ 
+  padding: 2rem;
+  border-radius: 2rem;
+  color: var(--text-color);
+  background-color: var(--works-a-bg-color);
+} 
