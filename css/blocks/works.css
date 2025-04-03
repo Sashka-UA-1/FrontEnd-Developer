@@ -11,7 +11,8 @@
   margin-top: 2rem;
 }
 
-.works__item{
+.works__item a{
+  display: inline-block;
   height: min-content;
   padding: 2rem;
   border-radius: 2rem;
@@ -21,7 +22,7 @@
   cursor: pointer;
 }
 
-.works__item:hover{
+.works__item:hover a{
   transform: translate(0, -0.5rem);
   box-shadow: 0 0.5rem 1rem var(--works-a-bg-color);
 }
