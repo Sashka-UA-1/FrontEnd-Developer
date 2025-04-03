@@ -5,13 +5,14 @@
   box-sizing: border-box;
 }
 /* прибирання стандартних стілів для кнопкам, випадаючим спискам, 
-полям для ведення та даовання до них наведення */
+полям для ведення */
 button,
 select,
 input {
   outline: none;
   border: none;
   cursor: pointer;
+  color: inherit;
 }
 /* висота лінії для тексту */
 p {
