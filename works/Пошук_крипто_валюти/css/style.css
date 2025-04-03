@@ -1,8 +1,8 @@
 
 /* ↓↓↓ === інмпорт базових стилів === ↓↓↓ */
 
-@import url('/works/Пошук_крипто_валюти/css/base/normalize.css');
-@import url('/works/Пошук_крипто_валюти/css/base/base.css');
+@import url('base/normalize.css');
+@import url('base/base.css');
 
 /* ↑↑↑ === інмпорт базових стилів === ↑↑↑ */
 
