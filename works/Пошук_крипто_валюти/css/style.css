@@ -1,17 +1,17 @@
 
 /* ↓↓↓ === інмпорт базових стилів === ↓↓↓ */
 
-@import url('/works/Пошук_крипто_валюти/css/base/normalize.css');
-@import url('/works/Пошук_крипто_валюти/css/base/base.css');
+@import url('base/normalize.css');
+@import url('base/base.css');
 
 /* ↑↑↑ === інмпорт базових стилів === ↑↑↑ */
 
 /* ↓↓↓ === інпорт стилів для блоків сторінки === ↓↓↓ */
 
-@import url('/works/Пошук_крипто_валюти/css/blocks/header.css');
-@import url('/works/Пошук_крипто_валюти/css/blocks/crypto-panel.css');
-@import url('/works/Пошук_крипто_валюти/css/blocks/favorite.css');
-@import url('/works/Пошук_крипто_валюти/css/blocks/modal.css');
+@import url('blocks/header.css');
+@import url('blocks/crypto-panel.css');
+@import url('blocks/favorite.css');
+@import url('blocks/modal.css');
 
 /* ↑↑↑ === інпорт стилів для блоків сторінки === ↑↑↑ */
 
