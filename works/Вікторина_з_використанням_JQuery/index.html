@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- заголовок вкладки -->
+	<title>Вікторина на JQuery</title>
+	<!-- підключення іконічного шрифту -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- підключення стилів -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<!-- ↓ = Заголовок  -->
+	<header>
+		<h1>Вікторина на тему "Історія України"</h1>
+	</header>
+	<!-- ↑ = Заголовок  -->
+	<!-- ↓ = Вікторина -->
+	<main>
+		<section class="container">
+			<p class="quiz-counter">Запитання <span id="quizCounter">(данні оновлюються)</span></p>
+			<h2 id="quizTitle" class="quiz-title">Запитання завантажується, будь-ласка зачекайте</h2>
+			<ul id="containerAnswer" class="container-answer">
+				<li>Варіант відповіді завантажується...</li>
+				<li>Варіант відповіді завантажується...</li>
+				<li>Варіант відповіді завантажується...</li>
+				<li>Варіант відповіді завантажується...</li>
+			</ul>
+			<button id="nextBtn" class="next-btn" disabled>Наступне питання</button>
+			<ul id="progressTracker" class="progress-tracker">
+				<li><i class="fa-regular fa-clock"></i></li>
+			</ul>
+		</section>
+	</main>
+	<!-- ↑ = Вікторина -->
+	<!-- ↓ = Підвал -->
+	<footer>
+		<h6>Розробник Єкімов Олександр</h6>
+	</footer>
+	<!-- ↑ = Підвал -->
+
+	<!-- ↓ = підключення скриптів -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="js/script.js"></script>
+	<!-- ↑ =  підключення скриптів -->
+</body>
+
+</html>
