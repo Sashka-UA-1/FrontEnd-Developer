@@ -23,3 +23,9 @@ ul,
 li {
   list-style: none;
 }
+html{
+	min-height: 100vh;
+}
+body{
+	min-height: 100%;
+}
