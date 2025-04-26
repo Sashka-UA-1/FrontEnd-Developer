@@ -11,7 +11,7 @@
 Також розроблю свої власні проекти які ви можете переглянути у works
 
 # Для написання коду
-Використовую VS COde у вигляді основного редактора для коду
+Використовую VS Code у вигляді основного редактора для коду
 ## Ось перелік плагінів які я використовую:
 	[Auto Close Tag](//marketplace.visualstudio.com/items/?itemName=formulahendry.auto-close-tag)
 	[Auto Rename Tag](https://marketplace.visualstudio.com/items/?itemName=formulahendry.auto-rename-tag)
