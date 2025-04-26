@@ -13,7 +13,7 @@
 # Для написання коду
 Використовую VS COde у вигляді основного редактора для коду
 ## Ось перелік плагінів які я використовую:
-	[Auto Close Tag](https://marketplace.visualstudio.com/items/?itemName=formulahendry.auto-close-tag)
+	[Auto Close Tag](//marketplace.visualstudio.com/items/?itemName=formulahendry.auto-close-tag)
 	[Auto Rename Tag](https://marketplace.visualstudio.com/items/?itemName=formulahendry.auto-rename-tag)
 	[CSS Peek](https://marketplace.visualstudio.com/items/?itemName=pranaygp.vscode-css-peek)
 	[Error Lens](https://marketplace.visualstudio.com/items/?itemName=usernamehw.errorlens)
