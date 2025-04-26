@@ -11,15 +11,15 @@
 Також розроблю свої власні проекти які ви можете переглянути у works
 
 # Для написання коду
-Використовую VS Code у вигляді основного редактора для коду
+Використовую VS COde у вигляді основного редактора для коду
 ## Ось перелік плагінів які я використовую:
-	[Auto Close Tag](//marketplace.visualstudio.com/items/?itemName=formulahendry.auto-close-tag)
-	[Auto Rename Tag](https://marketplace.visualstudio.com/items/?itemName=formulahendry.auto-rename-tag)
-	[CSS Peek](https://marketplace.visualstudio.com/items/?itemName=pranaygp.vscode-css-peek)
-	[Error Lens](https://marketplace.visualstudio.com/items/?itemName=usernamehw.errorlens)
-	[HTML CSS Support](https://marketplace.visualstudio.com/items/?itemName=ecmel.vscode-html-css)
-	[HTML to CSS autocompletion](https://marketplace.visualstudio.com/items/?itemName=solnurkarim.html-to-css-autocompletion)
-	[Image preview](https://marketplace.visualstudio.com/items/?itemName=kisstkondoros.vscode-gutter-preview)
-	[Live Sass Compiler](https://marketplace.visualstudio.com/items/?itemName=glenn2223.live-sass)
-	[Live Server](https://marketplace.visualstudio.com/items/?itemName=ritwickdey.LiveServer)
-	[px to rem](https://marketplace.visualstudio.com/items/?itemName=sainoba.px-to-rem)
+	- [Auto Close Tag](https://marketplace.visualstudio.com/items/?itemName=formulahendry.auto-close-tag)
+	- [Auto Rename Tag](https://marketplace.visualstudio.com/items/?itemName=formulahendry.auto-rename-tag)
+	- [CSS Peek](https://marketplace.visualstudio.com/items/?itemName=pranaygp.vscode-css-peek)
+	- [Error Lens](https://marketplace.visualstudio.com/items/?itemName=usernamehw.errorlens)
+	- [HTML CSS Support](https://marketplace.visualstudio.com/items/?itemName=ecmel.vscode-html-css)
+	- [HTML to CSS autocompletion](https://marketplace.visualstudio.com/items/?itemName=solnurkarim.html-to-css-autocompletion)
+	- [Image preview](https://marketplace.visualstudio.com/items/?itemName=kisstkondoros.vscode-gutter-preview)
+	- [Live Sass Compiler](https://marketplace.visualstudio.com/items/?itemName=glenn2223.live-sass)
+	- [Live Server](https://marketplace.visualstudio.com/items/?itemName=ritwickdey.LiveServer)
+	- [px to rem](https://marketplace.visualstudio.com/items/?itemName=sainoba.px-to-rem)
