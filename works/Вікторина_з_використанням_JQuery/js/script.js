@@ -145,7 +145,7 @@ $(function () {
 		if (indexQuestion == randomQuestions.length) {
 			localStorage.clear();
 			indexQuestion = 0;
-			randomQuestions.length = 0
+			randomQuestions = []
 			$(this).text('Наступне питання');
 			$('#progressTracker li').removeClass('ok').removeClass('error').html('<i class="fa-regular fa-clock"></i>');
 		}
