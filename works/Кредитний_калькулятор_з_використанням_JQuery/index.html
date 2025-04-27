@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- заголовок вкладки сторінки  -->
+	<title>Кредитний калькулятор</title>
+	<!-- підключення іконічного шрифту -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+		integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- підключення стилів -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<main class="container">
+		<h1>Кредитний калькулятор</h1>
+		<section class="container__title-2">
+			<p>Курс USD <span id="exchangeRateUsd"></span> грн</p>
+			<p>Курс EUR <span id="exchangeRateEur"></span> грн</p>
+		</section>
+		<!-- ↓ форма калькулятора -->
+		<form>
+			<!-- ↓ вибір валюти -->
+			<label>
+				<p>Валюта:</p>
+				<select id="currencySelector">
+					<option value="">Виберіть валюту</option>
+					<option value="UAH">Гривні</option>
+					<option value="USD">Долари</option>
+					<option value="EUR">Євро</option>
+				</select>
+			</label>
+			<!-- ↑ вибір валюти -->
+			<!-- ↓ внесення суми кредити -->
+			<label>
+				<p>Сума кредиту:</p>
+				<input type="number" id="loanAmount" min="0">
+			</label>
+			<!-- ↑ внесення суми кредити -->
+			<!-- ↓ введення початкового внеску -->
+			<label>
+				<p>Початковий внесок</p>
+				<input type="number" id="initialContribution" min="0">
+			</label>
+			<!-- ↑ введення початкового внеску -->
+			<!-- ↓ вибір банку -->
+			<label>
+				<p>Банк:</p>
+				<select id="bankChoice">
+					<option value="">Виберіть банк</option>
+					<option value="privatBank">Приват Банк</option>
+					<option value="monoBank">Моно Банк</option>
+					<option value="pumbBank">Pumb Банк</option>
+				</select>
+			</label>
+			<!-- ↑ вибір банку -->
+			<label>
+				<p>Річний річна ставка (%)</p>
+				<input type="number" id="annualRate" disabled>
+			</label>
+			<!-- ↓ внесення процентної ставки  -->
+			<label>
+				<p>Вибір терміну кредиту (міс):</p>
+				<article>
+					<input type="range" id="loanTerm" min="1" max="36" value="0">
+					<span id="loanTermText">0</span>
+				</article>
+			</label>
+			<!-- ↑ внесення процентної ставки  -->
+			<!-- ↓ внесення процентної ставки  -->
+			<label>
+				<p>Тип платежу:</p>
+				<article>
+					<label>
+						<input type="radio" name="payment-type" value="annuity">
+						<p>Ануїтет</p>
+					</label>
+					<label>
+						<input type="radio" name="payment-type" value="equalParts">
+						<p>Рівні частини</p>
+					</label>
+				</article>
+			</label>
+			<!-- ↑ внесення процентної ставки  -->
+			<!-- ↓ змінна теми -->
+			<label>
+				<p>Тема:</p>
+				<button id="changeTheme" type="button"><span id="changeThemeText">🌞</span> Зміна теми</button>
+			</label>
+			<!-- ↑ змінна теми -->
+			<!-- ↓ лінія прогресу заповнення -->
+			<div>
+				<article id="progressBar"></article>
+			</div>
+			<!-- ↑ лінія прогресу заповнення -->
+			<!-- ↓ кнопка виконання розрахунку -->
+			<button type="submit" id="btnResult">Розрахувати</button>
+			<!-- ↑ кнопка виконання розрахунку -->
+		</form>
+		<!-- ↑ форма калькулятора -->
+		<!-- ↓ сектор виведення результату -->
+		<section id="resultContainer"></section>
+		<!-- ↑ сектор виведення результату -->
+	</main>
+	<!-- ↓ підвал сторінки -->
+	<footer>
+		<h6>Розробник Єкімов Олександр (Sashka_UA_1)</h6>
+		<p>Процентні ставки банків вигадані і не є дійсними на відмінно від курсу валют, він відповідає API від НБУ</p>
+	</footer>
+	<!-- ↑ підвал сторінки -->
+
+
+	<!-- підключення скриптів -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+		integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>
