@@ -1,0 +1,13 @@
+body {
+	margin: 0;
+	overflow: hidden;
+}
+
+canvas {
+	position: relative;
+	z-index: -1;
+}
+h1{
+	position: relative;
+	z-index: 2;
+}
