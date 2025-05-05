@@ -8,76 +8,156 @@
 
 	<title>Портфоліо Єкімова</title>
 
-	<link rel="stylesheet" href="css/style.css" />
+	<!-- connect font-awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+		integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- connect style -->
+	<link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
-	<!-- ↓↓↓ === header === ↓↓↓ -->
+	<!-- ↓↓ ============ HEADER ============ -->
 	<header>
-		<section class="container header">
-			<!-- ↓↓↓ === logo === ↓↓↓  -->
-			<a href="">
-				<img src="img/Logo.jpg" alt="My_logo" class="img-logo" />
-			</a>
-			<!-- ↑↑↑ === logo === ↑↑↑  -->
-			<h1 class="header-title hide">Портфоліо Єкімова</h1>
-			<!-- ↓↓↓ === header-menu === ↓↓↓ -->
-			<nav>
-				<ul class="header-menu">
-					<!-- <li><a href="#">Про мене</a></li> -->
-					<!-- <li><a href="#">Мої контакти</a></li> -->
-				</ul>
-			</nav>
-			<!-- ↑↑↑ === header-menu === ↑↑↑ -->
-		</section>
+		<nav class="nav container">
+			<a href="/" class="nav_home">Моє портфоліо</a>
+			<ul class="nav_list" id="menu">
+				<li class="list_item">
+					<a href="#about">Про мене</a>
+				</li>
+				<li class="list_item">
+					<a href="#skills">Скіли</a>
+				</li>
+				<li class="list_item">
+					<a href="#projects">Роботи</a>
+				</li>
+				<li class="list_item">
+					<a href="#contact">Контакт</a>
+				</li>
+			</ul>
+			<button id="toggleMenu" class="toggle-menu">
+				<i class="fa-solid fa-bars"></i>
+			</button>
+			<button id="toggleTheme" class="toggle-theme">
+				<i class="fa-solid fa-moon"></i>
+			</button>
+		</nav>
 	</header>
-	<!-- ↑↑↑ === header === ↑↑↑ -->
-
-	<!-- ↓↓↓ === main === ↓↓↓   -->
+	<!-- ↑↑ ============ HEADER ============ -->
+	<!-- ↓↓ ============ MAIN ============ -->
 	<main>
-		<!-- ↓↓↓ === works === ↓↓↓ -->
-		<h2 class="works__title hide">Мої роботи</h2>
-		<section class="works container">
-			<!-- ↓↓↓ === works__item === ↓↓↓ -->
-			<label class="works__item">
-				<a href="/works/Вичачення_Canvas/index.html" target="_blank">Вивчення Canvas</a>
-			</label>
-			<label class="works__item">
-				<a href="/works/Кредитний_калькулятор_з_використанням_JQuery/index.html" target="_blank">Кредитний калькулятор з використанням JQuery</a>
-			</label>
-			<!-- ↑↑↑ === works__item === ↑↑↑ -->
-			<!-- ↓↓↓ === works__item === ↓↓↓ -->
-			<label class="works__item">
-				<a href="/works/Fetch_API_post/index.html" target="_blank">Пошук постів по API</a>
-			</label>
-			<!-- ↑↑↑ === works__item === ↑↑↑ -->
-			<!-- ↓↓↓ === works__item === ↓↓↓ -->
-			<label class="works__item">
-				<a href="/works/Shop_class/index.html" target="_blank">Інтернет-магазин на класах JS</a>
-			</label>
-			<!-- ↑↑↑ === works__item === ↑↑↑ -->
-			<!-- ↓↓↓ === works__item === ↓↓↓ -->
-			<label class="works__item">
-				<a href="/works/Пошук_крипто_валюти/index.html" target="_blank">Пошук крипта валюти</a>
-			</label>
-			<!-- ↑↑↑ === works__item === ↑↑↑ -->
-			<!-- ↓↓↓ === works__item === ↓↓↓ -->
-			<label class="works__item">
-				<a href="/works/Вікторина_з_використанням_JQuery/index.html" target="_blank">Вікторина з використанням JQuery</a>
-			</label>
-			<!-- ↑↑↑ === works__item === ↑↑↑ -->
+		<!-- ↓ ============ ABOUT ============ -->
+		<section id="about" class="about container">
+			<h2>Про мене</h2>
+			<div class="about_content">
+				<img src="img/my-image.webp" alt="Фото мене, Єкімова Олександра">
+				<div class="about_text">
+					<h3>Привіт! Я — Олександр, той, хто змушує пікселі працювати</h3>
+					<p>Мені 24 роки. Мій шлях в ІТ розпочався у 18, коли я створив власну гру для телефону. Протягом наступних
+						двох років я зрозумів, що розробка ігор — це не зовсім те, чим я хочу займатися. У пошуках нового напрямку я
+						відкрив для себе <span class="text-accent">Front-End</span>.</p>
+					<p>Я почав вивчати веброзробку самостійно, через онлайн-матеріали. Так, це не найнадійніший шлях, але він дав
+						мені базові знання та практику. Я виконував невеликі завдання, вносив правки у проєкти та з кожним кроком
+						дізнавався щось нове. Наразі я навчаюся у <span class="text-accent">StepIT</span>.</p>
+				</div>
+			</div>
 		</section>
-		<!-- ↑↑↑ === works === ↑↑↑ -->
-	</main>
-	<!-- ↑↑↑ === main === ↑↑↑ -->
+		<!-- ↑ ============ ABOUT ============ -->
+		<!-- ↓ ============ SKILLS ============ -->
+		<section id="skills" class="skills container">
+			<h2>Скіли</h2>
+			<div class="skills_container">
+				<div class="skills_content" id="skills_content">
+					<!-- ====== CART HTML ====== -->
+					<div class="skills_cart">
+						<i class="fa-brands fa-html5" style="color: #e34f26;"></i>
+						<h3>HTML</h3>
+						<p>Розмічаю семантично. Впевнено працюю з формами, табличками, медіа.</p>
+						<span class="text-accent">Впевнений рівень</span>
+					</div>
+					<!-- ====== CART CSS ====== -->
+					<div class="skills_cart">
+						<i class="fa-brands fa-css3-alt" style="color: #264de4;"></i>
+						<h3>CSS</h3>
+						<p>Володію Flexbox та Grid, створюю адаптивні й кросбраузерні інтерфейси.</p>
+						<span class="text-accent">Впевнений рівень</span>
+					</div>
+					<!-- ====== CART JS ====== -->
+					<div class="skills_cart">
+						<i class="fa-brands fa-js" style="color: #f7df1e;"></i>
+						<h3>JS</h3>
+						<p>Пишу чистий код, працюю з DOM, подіями та асинхронністю (fetch, async/await).</p>
+						<span class="text-accent">Впевнений рівень</span>
+					</div>
+					<!-- ====== CART SCSS ====== -->
+					<div class="skills_cart">
+						<i class="fa-brands fa-sass" style="color: #cd6799;"></i>
+						<h3>SCSS</h3>
+						<p>Використовую змінні, вкладеність, міксіни для структури і повторного використання стилів.</p>
+						<span class="text-accent">Середній рівень</span>
+					</div>
+					<!-- ====== CART ====== -->
+					<div class="skills_cart">
+						<i class="fa-solid fa-puzzle-piece"></i>
+						<h3>Modularity</h3>
+						<p>Розбиваю код на малі, незалежні частини для зручності, підтримки та масштабування.</p>
+						<span class="text-accent">Впевнений рівень</span>
+					</div>
+					<!-- ====== CART ====== -->
+					<div class="skills_cart">
+						<i class="fa-solid fa-lightbulb"></i>
+						<h3>Problem Solving</h3>
+						<p>Швидко знаходжу рішення навіть у складних ситуаціях.
+							Використовую логіку, креативність і досвід, щоб долати технічні й нетехнічні виклики.</p>
+						<span class="text-accent">Впевнений рівень</span>
+					</div>
+				</div>
+				<button class="skill_prev" id="skillsBtnPrev">
+					<i class="fa-solid fa-chevron-left"></i>
+				</button>
+				<button class="skill_next" id="skillsBtnNext">
+					<i class="fa-solid fa-chevron-right"></i>
+				</button>
+			</div>
+		</section>
+		<!-- ↑ ============ SKILLS ============ -->
+		<!-- ↓ ============ PROJECTS ============ -->
+		<section id="projects" class="projects container">
+			<h2>Роботи</h2>
+			<h3>Портфоліо поповнюється – наразі готую проєкти до публікації. Дякую за інтерес!</h3>
+		</section>
+		<!-- ↑ ============ PROJECTS ============ -->
+		<!-- ↓ ============ CONTACT ============ -->
+		<section id="contact" class="contact container">
+			<h2>Контакт</h2>
+			<div class="contact-icons">
+				<a href="tel:+38733330463">
+					<i class="fa-solid fa-phone" style="color: #34A853;"></i>
+				</a>
+				<a href="mailto:sasaekimov@gmail.com">
+					<i class="fa-solid fa-envelope" style="color: #D93025;"></i>
+				</a>
+				<a href="https://t.me/sashka_UA_1">
+					<i class="fa-brands fa-telegram" style="color: #0088cc;"></i>
+				</a>
+			</div>
+		</section>
+		<!-- ↑ ============ CONTACT ============ -->
 
-	<!-- ↓↓↓ === footer === ↓↓↓ -->
-	<footer>
-		<h6>
-			<a href="https://t.me/sashka_UA_1" target="_blank">Developer: Ekimov Alexander</a>
-		</h6>
+	</main>
+	<!-- ↑↑ ============ MAIN ============ -->
+
+
+	<!-- ↓↓ ============ FOOTER ============ -->
+	<footer class="container footer">
+		<p>День — дедлайни, вечір — фреймворки, ніч — баги, а життя — Front-End Developer.</p>
+		<p>© 2025 Єкімов Олександр. Усі права захищені.</p>
+
 	</footer>
-	<!-- ↑↑↑ === footer === ↑↑↑ -->
+	<!-- ↑↑ ============ FOOTER ============ -->
+
+	<script type="module" src="js/scripts.js"></script>
 </body>
 
 </html>

@@ -1,31 +1,39 @@
-*, ::after, ::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+*,
+::after,
+::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
+
 button,
 select,
 input,
 select {
-  outline: none;
-  border: none;
-  cursor: pointer;
-  color: inherit;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	color: inherit;
 }
+
 p {
-  line-height: 1.3;
+	line-height: 1.5;
 }
+
 a {
-  text-decoration: none;
-  color: inherit;
+	text-decoration: none;
+	color: inherit;
 }
+
 ul,
 li {
-  list-style: none;
+	list-style: none;
 }
-html{
-	height: 100vh;
+
+html {
+	min-height: 100vh;
 }
-body{
+
+body {
 	min-height: 100%;
 }
