@@ -24,9 +24,9 @@
 	scale: 1.1;
 }
 
-.skills_cart i {
-	font-size: 4rem;
-	color: var(--text-color-accent);
+.skills_img {
+	width: 40%;
+	margin-inline: auto;
 }
 
 .skill_prev,
@@ -52,7 +52,7 @@
 		box-shadow: none;
 		scale: 1;
 	}
-	
+
 
 	.skills_container {
 		position: relative;
@@ -97,7 +97,7 @@
 	}
 
 	.skill_prev:active,
-	.skill_next:active{
+	.skill_next:active {
 		scale: 0.95;
 	}
 }
