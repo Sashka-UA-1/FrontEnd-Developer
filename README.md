@@ -1,25 +1,24 @@
-# Про мене
-Вітаю, Я Єкімов Олександр (Sashka_UA_1) | Front-End Developer
-Мені 24 роки, люблю копатися у чужому коді, аби отримати для себе щось нове, навчатися на помилках та допомагаю найти способи рішення певної задачі.
-# Мій стек на даний час
-	- HTML → мова для розмітки Web сторінок;
-	- CSS → мова стилю сторінок, що використовується для опису їхнього зовнішнього вигляду;
-	- JavaScript (JS) → мова для написання сценаріїв вебсторінок для надання їм інтерактивності;
-	- SCSS → скриптова метамова, яка інтерпретується в каскадні таблиці стилів (CSS).
-Але я на цьому не зупиняюся та розвиваюся.
-Зараз вивчаю бібліотеку React
-Також розроблю свої власні проекти які ви можете переглянути за посиланнями ниже ↓
+# About Me
+Hi! I'm Oleksandr Yekimov (Sashka_UA_1) — a Front-End Developer.
+I'm 24 years old and love diving into other people's code to learn something new. I grow by analyzing mistakes and helping to find effective solutions to different tasks.
+# My Current Tech Stack:
+HTML – markup language for structuring web pages;
+CSS – style sheet language for visual design;
+JavaScript (JS) – scripting language for interactivity;
+SCSS – a CSS preprocessor for writing cleaner and more powerful styles.
 
-# Для написання коду
-Використовую VS Code як основного редактора для коду
-## Ось перелік плагінів які я використовую:
-	- [Auto Close Tag]
-	- [Auto Rename Tag]
-	- [CSS Peek]
-	- [Error Lens]
-	- [HTML CSS Support]
-	- [HTML to CSS autocompletion]
-	- [Image preview]
-	- [Live Sass Compiler]
-	- [Live Server]
-	- [px to rem]
+But I’m not stopping here — currently learning React
+
+# My Code Editor
+I use Visual Studio Code as my primary development tool.
+## Favorite Extensions:
+- Auto Close Tag
+- Auto Rename Tag
+- CSS Peek
+- Error Lens
+- HTML CSS Support
+- HTML to CSS Autocompletion
+- Image Preview
+- Live Sass Compiler
+- Live Server
+- px to rem
