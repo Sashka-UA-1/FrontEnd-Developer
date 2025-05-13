@@ -67,8 +67,8 @@
 			"title": "Contacts"
 		}
 	},
-	"footer":{
-		"textOne":"Daytime is deadlines, evening is frameworks, night is bugs, and life is Front-End Developer.",
-		"textTwo":"© 2025 Yekimov Olexander. All rights reserved."
-	}
+	"footer":[
+		"Daytime is deadlines, evening is frameworks, night is bugs, and life is Front-End Developer.",
+		"© 2025 Yekimov Olexander. All rights reserved."
+	]
 }

@@ -66,6 +66,15 @@ const setTextToMain = ({ main }) => {
 	setTextToContact(contact)
 }
 
+const setTextToFooter = ({ footer }) => {
+	const footerEl = document.querySelector('.footer')
+	const textContainerEls = footerEl.querySelectorAll('p')
+	footer.forEach((text,index)=>{
+		textContainerEls[index].textContent = text
+	})
+}
+
+
 const setLanguage = () => {
 	toggleLangElm.innerText = langSet
 	let lang
@@ -77,6 +86,7 @@ const setLanguage = () => {
 	}
 	setTextToHeader(lang)
 	setTextToMain(lang)
+	setTextToFooter(lang)
 }
 
 toggleLangElm.onclick = function () {
