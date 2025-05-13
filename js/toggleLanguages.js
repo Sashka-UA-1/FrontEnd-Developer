@@ -84,6 +84,7 @@ const setLanguage = () => {
 	if (langSet == 'EN') {
 		lang = langEn
 	}
+	document.querySelector('html').lang = langSet.toLowerCase()
 	setTextToHeader(lang)
 	setTextToMain(lang)
 	setTextToFooter(lang)
