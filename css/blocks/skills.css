@@ -16,12 +16,17 @@
 	text-align: center;
 	display: flex;
 	flex-direction: column;
+	justify-content: flex-start;
 	gap: 0.5rem;
 }
 
 .skills_cart:hover {
 	box-shadow: 0 0 1rem 0.2rem var(--text-color-accent);
 	scale: 1.1;
+}
+
+.skills_cart .text-accent {
+	margin-top: auto;
 }
 
 .skills_img {

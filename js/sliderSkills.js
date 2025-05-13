@@ -3,8 +3,8 @@ const slides = document.querySelectorAll('.skills_cart');
 const skillsBtnPrevElm = document.getElementById('skillsBtnPrev')
 const skillsBtnNextElm = document.getElementById('skillsBtnNext')
 const totalSlides = slides.length;
-let isPhone = window.matchMedia 
-&& window.matchMedia('(max-width: 480px)').matches;
+let isPhone = window.matchMedia
+	&& window.matchMedia('(max-width: 480px)').matches;
 
 skillsBtnPrevElm.onclick = (() => { moveSlide(-1) })
 skillsBtnNextElm.onclick = (() => { moveSlide(1) })

@@ -76,6 +76,19 @@ header {
 	margin: 0;
 }
 
+.toggle-languages {
+	background-color: transparent;
+	color: var(--text-color);
+	border: 1px solid var(--text-color);
+	border-radius: 50%;
+}
+
+.toggle-languages:hover {
+	border-color: var(--text-color-accent);
+	color: var(--text-color-accent);
+}
+
+
 .toggle-theme {
 	border-radius: 50%;
 	animation-name: rotate-dtn;
@@ -135,13 +148,14 @@ header {
 		right: 0;
 	}
 
-	.toggle-theme {
+	.toggle-menu {
+		display: block;
 		position: relative;
 		z-index: 100;
 	}
 
-	.toggle-menu {
-		display: block;
+	.toggle-languages,
+	.toggle-theme {
 		position: relative;
 		z-index: 100;
 	}

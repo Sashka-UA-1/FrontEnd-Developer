@@ -1,0 +1,74 @@
+{
+	"header": {
+		"home": "My portfolio",
+		"nav": {
+			"about": "About me",
+			"skills": "Skills",
+			"projects": "Works",
+			"contact": "Contact"
+		}
+	},
+	"main": {
+		"about": {
+			"title": "About me",
+			"text": {
+				"titleText": "Hello! I'm Alexander, the one who makes pixels work",
+				"textOne1": "I am 24 years old. My journey in IT began at 18, when I created my own game for my phone. ",
+				"textOne2": "Over the next two years, I realized that game development wasn't exactly what I wanted to do. ",
+				"textOne3": "In search of a new direction, I discovered for myself ",
+				"textOneAccent": "Front-End",
+				"textTwo1": "I started learning web development on my own, through online materials. ",
+				"textTwo2": "Yes, it's not the most reliable way, but it gave me basic knowledge and practice. ",
+				"textTwo3": "I completed small tasks, made edits to projects, and learned something new with each step. ",
+				"textTwo4": "I am currently studying at ",
+				"textTwoAccent": "StepIT"
+			}
+		},
+		"skills": {
+			"title": "Skills",
+			"cart": [
+				{
+					"title": "HTML",
+					"text": "I mark up semantically. I work confidently with forms, tables, and media.",
+					"textAccent": "Confident level"
+				},
+				{
+					"title": "CSS",
+					"text": "I know Flexbox and Grid, and I create responsive and cross-browser interfaces.",
+					"textAccent": "Confident level"
+				},
+				{
+					"title": "SCSS",
+					"text": "Using variables, nesting, mixins for structure and style reuse.",
+					"textAccent": "Intermediate level"
+				},
+				{
+					"title": "JS",
+					"text": "I write clean code, work with DOM, events, and asynchrony (fetch, async/await).",
+					"textAccent": "Confident level"
+				},
+				{
+					"title": "Figma",
+					"text": "I use it to view layouts, work with UI/UX, and adapt the design for layout.",
+					"textAccent": "Confident level"
+				},
+				{
+					"title": "Problem Solving",
+					"text": "I quickly find solutions even in difficult situations. I use logic, creativity, and experience to overcome technical and non-technical challenges.",
+					"textAccent": "Confident level"
+				}
+			]
+		},
+		"projects": {
+			"title": "Projects",
+			"text": "The portfolio is growing – I am currently preparing projects for publication. Thank you for your interest!"
+		},
+		"contact": {
+			"title": "Contacts"
+		}
+	},
+	"footer":{
+		"textOne":"Daytime is deadlines, evening is frameworks, night is bugs, and life is Front-End Developer.",
+		"textTwo":"© 2025 Yekimov Olexander. All rights reserved."
+	}
+}
