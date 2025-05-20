@@ -61,13 +61,18 @@
 		},
 		"projects": {
 			"title": "Projects",
-			"text": "The portfolio is growing – I am currently preparing projects for publication. Thank you for your interest!"
+			"cart": [
+				{
+					"title": "Gallery creation project",
+					"text": "The gallery is created as a slider using HTML, CSS and JS"
+				}
+			]
 		},
 		"contact": {
 			"title": "Contacts"
 		}
 	},
-	"footer":[
+	"footer": [
 		"Daytime is deadlines, evening is frameworks, night is bugs, and life is Front-End Developer.",
 		"© 2025 Yekimov Olexander. All rights reserved."
 	]

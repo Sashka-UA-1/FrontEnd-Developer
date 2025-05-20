@@ -58,7 +58,6 @@
 		scale: 1;
 	}
 
-
 	.skills_container {
 		position: relative;
 		width: 100%;
@@ -75,7 +74,6 @@
 
 	.skills_cart {
 		min-width: 100%;
-		transform: transition();
 	}
 
 	.skill_prev,

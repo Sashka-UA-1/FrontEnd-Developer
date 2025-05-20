@@ -44,11 +44,15 @@ const setTextToSkills = (skills) => {
 }
 
 const setTextToProjects = (projects) => {
-	const { title, text } = projects
+	const { title, cart } = projects
 	document.getElementById('projects')
 		.querySelector('h2').textContent = title
-	document.getElementById('projects')
-		.querySelector('h3').textContent = text
+	const projectsContent = document.getElementById('projects_content').children
+	cart.forEach((textArr, index) => {
+		const { title, text } = textArr
+		projectsContent[index].querySelector('h3').textContent = title
+		projectsContent[index].querySelector('p').textContent = text
+	})
 }
 
 const setTextToContact = (contact) => {
@@ -69,7 +73,7 @@ const setTextToMain = ({ main }) => {
 const setTextToFooter = ({ footer }) => {
 	const footerEl = document.querySelector('.footer')
 	const textContainerEls = footerEl.querySelectorAll('p')
-	footer.forEach((text,index)=>{
+	footer.forEach((text, index) => {
 		textContainerEls[index].textContent = text
 	})
 }
