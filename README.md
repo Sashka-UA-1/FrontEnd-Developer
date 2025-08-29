@@ -3,6 +3,7 @@
 # About Me
 Hi! I'm Oleksandr (Sashka_UA_1) — a Front-End Developer.
 I'm 24 years old and love diving into other people's code to learn something new. I grow by analyzing mistakes and helping to find effective solutions to different tasks.
+
 # My Current Tech Stack:
 - HTML – page structure
 - CSS – styles and layout
@@ -13,6 +14,7 @@ I'm 24 years old and love diving into other people's code to learn something new
 
 # My Code Editor
 I use Visual Studio Code as my primary development tool.
+
 ## Favorite Extensions:
 - Auto Close Tag
 - Auto Rename Tag
