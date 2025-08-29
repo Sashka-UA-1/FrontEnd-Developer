@@ -1,7 +1,7 @@
 <kbd>[<img title="Українська" alt="Українська" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/ua.svg" width="22">](README.ua.md)</kbd>
 
 # About Me
-Hi! I'm Oleksandr Yekimov (Sashka_UA_1) — a Front-End Developer.
+Hi! I'm Oleksandr (Sashka_UA_1) — a Front-End Developer.
 I'm 24 years old and love diving into other people's code to learn something new. I grow by analyzing mistakes and helping to find effective solutions to different tasks.
 # My Current Tech Stack:
 HTML – markup language for structuring web pages;
