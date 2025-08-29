@@ -3,175 +3,18 @@
 
 <head>
 	<meta charset="UTF-8" />
+	<!-- character encoding declaration -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="icon" sizes="180x180" href="assets/img/Logo_mini.ico" />
 
 	<title>Портфоліо Єкімова</title>
+	<!-- name inset -->
 
-	<!-- connect font-awesome -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-		integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-		crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-	<!-- connect style -->
 	<link rel="stylesheet" href="css/styles.css" />
+	<!-- connect style -->
 </head>
 
 <body>
-	<!-- ↓↓ ============ HEADER ============ -->
-	<header>
-		<nav class="nav container">
-			<a href="/" class="nav_home">Моє портфоліо</a>
-			<ul class="nav_list" id="menu">
-				<li class="list_item">
-					<a href="#about">Про мене</a>
-				</li>
-				<li class="list_item">
-					<a href="#skills">Скіли</a>
-				</li>
-				<li class="list_item">
-					<a href="#projects">Роботи</a>
-				</li>
-				<li class="list_item">
-					<a href="#contact">Контакт</a>
-				</li>
-			</ul>
-			<button id="toggleMenu" class="toggle-menu">
-				<i class="fa-solid fa-bars"></i>
-			</button>
-			<button id="toggleLanguages" class="toggle-languages">
-				UA
-			</button>
-			<button id="toggleTheme" class="toggle-theme">
-				<i class="fa-solid fa-moon"></i>
-			</button>
-		</nav>
-	</header>
-	<!-- ↑↑ ============ HEADER ============ -->
-	<!-- ↓↓ ============ MAIN ============ -->
-	<main>
-		<!-- ↓ ============ ABOUT ============ -->
-		<section id="about" class="about container">
-			<h2>Про мене</h2>
-			<div class="about_content">
-				<img src="assets/img/my-image.webp" alt="Фото мене, Єкімова Олександра">
-				<div class="about_text">
-					<h3>Привіт! Я — Олександр, той, хто змушує пікселі працювати</h3>
-					<p>Мені 24 роки. Мій шлях в ІТ розпочався у 18, коли я створив власну гру для телефону. Протягом наступних
-						двох років я зрозумів, що розробка ігор — це не зовсім те, чим я хочу займатися. У пошуках нового напрямку я
-						відкрив для себе <span class="text-accent">Front-End</span>.</p>
-					<p>Я почав вивчати веб-розробку самостійно, через онлайн-матеріали. Так, це не найнадійніший шлях, але він дав
-						мені базові знання та практику. Я виконував невеликі завдання, вносив правки у проєкти та з кожним кроком
-						дізнавався щось нове. Наразі я навчаюся у <span class="text-accent">StepIT</span>.</p>
-				</div>
-			</div>
-		</section>
-		<!-- ↑ ============ ABOUT ============ -->
-		<!-- ↓ ============ SKILLS ============ -->
-		<section id="skills" class="skills container">
-			<h2>Скіли</h2>
-			<div class="skills_container">
-				<div class="skills_content" id="skills_content">
-					<!-- ====== CART HTML ====== -->
-					<div class="skills_cart">
-						<img src="assets/svg/html_icon.svg" alt="html_icon" class="skills_img">
-						<h3>HTML</h3>
-						<p>Розмічаю семантично. Впевнено працюю з формами, табличками, медіа.</p>
-						<span class="text-accent">Впевнений рівень</span>
-					</div>
-					<!-- ====== CART CSS ====== -->
-					<div class="skills_cart">
-						<img src="assets/svg/css_icon.svg" alt="css_icon" class="skills_img">
-						<h3>CSS</h3>
-						<p>Володію Flexbox та Grid, створюю адаптивні й кросбраузерні інтерфейси.</p>
-						<span class="text-accent">Впевнений рівень</span>
-					</div>
-					<!-- ====== CART JS ====== -->
-					<div class="skills_cart">
-						<img src="assets/svg/js_icon.svg" alt="js_icon" class="skills_img">
-						<h3>JS</h3>
-						<p>Пишу чистий код, працюю з DOM, подіями та асинхронністю (fetch, async/await).</p>
-						<span class="text-accent">Впевнений рівень</span>
-					</div>
-					<!-- ====== CART SCSS ====== -->
-					<div class="skills_cart">
-						<img src="assets/svg/scss_icon.svg" alt="scss_icon" class="skills_img">
-						<h3>SCSS</h3>
-						<p>Використовую змінні, вкладеність, міксіни для структури і повторного використання стилів.</p>
-						<span class="text-accent">Середній рівень</span>
-					</div>
-					<!-- ====== CART FIGMA ====== -->
-					<div class="skills_cart">
-						<img src="assets/svg/figma_icon.svg" alt="figma_icon" class="skills_img">
-						<h3>Figma</h3>
-						<p>Використовую для перегляду макетів, роботи з UI/UX та адаптації дизайну під верстку.</p>
-						<span class="text-accent ">Впевнений рівень</span>
-					</div>
-					<!-- ====== CART ====== -->
-					<div class="skills_cart">
-						<img src="assets/svg/problem_solving_icon.svg" alt="problem_solving_icon" class="skills_img">
-						<h3>Problem Solving</h3>
-						<p>Швидко знаходжу рішення навіть у складних ситуаціях.
-							Використовую логіку, креативність і досвід, щоб долати технічні й нетехнічні виклики.</p>
-						<span class="text-accent ">Впевнений рівень</span>
-					</div>
-				</div>
-				<button class="skill_prev" id="skillsBtnPrev">
-					<i class="fa-solid fa-chevron-left"></i>
-				</button>
-				<button class="skill_next" id="skillsBtnNext">
-					<i class="fa-solid fa-chevron-right"></i>
-				</button>
-			</div>
-		</section>
-		<!-- ↑ ============ SKILLS ============ -->
-		<!-- ↓ ============ PROJECTS ============ -->
-		<section id="projects" class="projects container">
-			<h2>Роботи</h2>
-			<div class="projects_content" id="projects_content">
-				<!-- ============ PROJECTS gallery-slider ============  -->
-				<div class="project">
-					<a href="https://gallery-slider-sashka-ua-1.netlify.app/" target="_blank">
-						<img src="./assets/img/img-progect-gallery-slider.webp" alt="">
-						<h3>Проект по створенню Галереї</h3>
-						<p>Галерея створена у вигляді слайдера з використанням HTML, CSS та JS</p>
-					</a>
-				</div>
-				<button class="project_prev" id="projectBtnPrev">
-					<i class="fa-solid fa-chevron-left"></i>
-				</button>
-				<button class="project_next" id="projectBtnNext">
-					<i class="fa-solid fa-chevron-right"></i>
-				</button>
-			</div>
-		</section>
-		<!-- ↑ ============ PROJECTS ============ -->
-		<!-- ↓ ============ CONTACT ============ -->
-		<section id="contact" class="contact container">
-			<h2>Контакти</h2>
-			<div class="contact-icons">
-				<a href="tel:+380733330463">
-					<i class="fa-solid fa-phone" style="color: #34A853;"></i>
-				</a>
-				<a href="mailto:sasaekimov@gmail.com">
-					<i class="fa-solid fa-envelope" style="color: #D93025;"></i>
-				</a>
-				<a href="https://t.me/sashka_UA_1">
-					<i class="fa-brands fa-telegram" style="color: #0088cc;"></i>
-				</a>
-			</div>
-		</section>
-		<!-- ↑ ============ CONTACT ============ -->
-	</main>
-	<!-- ↑↑ ============ MAIN ============ -->
 
-
-	<!-- ↓↓ ============ FOOTER ============ -->
-	<footer class="container footer">
-		<p>День — дедлайни, вечір — фреймворки, ніч — баги, а життя — Front-End Developer.</p>
-		<p>© 2025 Єкімов Олександр. Усі права захищені.</p>
-	</footer>
-	<!-- ↑↑ ============ FOOTER ============ -->
 
 	<script type="module" src="js/scripts.js"></script>
 </body>
