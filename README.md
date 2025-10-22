@@ -3,6 +3,7 @@
 # About Me
 Hi! I'm Oleksandr (Sashka_UA_1) — a Front-End Developer.
 I'm 24 years old and love diving into other people's code to learn something new. I grow by analyzing mistakes and helping to find effective solutions to different tasks.
+https://portfolio-sashka-ua-1.netlify.app
 
 # My Current Tech Stack:
 - HTML – page structure
