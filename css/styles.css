@@ -1,1 +1,8 @@
-/* New code */
+/* відключення дефолтних стилів браузера */
+@import url("./reset.css");
+
+/* список змінних */
+@import url("./vars.css");
+
+/* базові стилі */
+@import url("./base.css");

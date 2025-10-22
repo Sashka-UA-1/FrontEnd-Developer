@@ -1,0 +1,19 @@
+body {
+	background-color: var(--main-bg-color);
+	color: var(--main-text-color);
+
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	height: 200px;
+}
+
+main {
+	flex: 1 1 auto;
+}
+
+footer {
+	height: 100px;
+}
